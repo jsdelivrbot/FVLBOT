@@ -183,7 +183,7 @@
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
+        scriptLink: "https://rawgit.com/Wastikene/FVLBOT/master/Favalbot.js",
         cmdLink: "http://git.io/245Ppg",
         chatLink: "https://rawgit.com/Wastikene/FVLBOT/master/langee.json",
         chat: null,
