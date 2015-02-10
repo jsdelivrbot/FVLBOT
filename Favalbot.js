@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Wastikene/Favalbot/lang/langindex.json", function (json) {
+        $.get("https://rawgit.com/Wastikene/FVLBOT/master/langindex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -183,9 +183,9 @@
         status: false,
         name: "Favalbot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Wastikene/Favalbot/lang/Favalbot.js",
+        scriptLink: "https://rawgit.com/Wastikene/FVLBOT/master/Favalbot.js",
         cmdLink: "http://www.faval.eu/t1753-plug-dj-faval",
-        chatLink: "https://rawgit.com/Wastikene/Favalbot/lang/langee.json",
+        chatLink: "https://rawgit.com/Wastikene/FVLBOT/master/langee.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -193,7 +193,7 @@
         settings: {
             botName: "Favalbot",
             language: "english",
-            chatLink: "https://rawgit.com/Wastikene/Favalbot/lang/langee.json",
+            chatLink: "https://rawgit.com/Wastikene/FVLBOT/master/langee.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: false, // true or false
