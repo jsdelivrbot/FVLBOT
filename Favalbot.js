@@ -179,12 +179,12 @@
     var botCreatorIDs = ["3851534", "3934992", "4105209"];
 
     var basicBot = {
-        version: "0.1",
+        version: "2.2.1",
         status: false,
         name: "basicBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Wastikene/FVLBOT/master/Favalbot.js",
-        cmdLink: "http://www.faval.eu/t1753-plug-dj-faval",
+        cmdLink: "http://git.io/245Ppg",
         chatLink: "https://rawgit.com/Wastikene/FVLBOT/master/langee.json",
         chat: null,
         loadChat: loadChat,
@@ -233,11 +233,11 @@
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            rulesLink: true,
+            rulesLink: null,
             themeLink: null,
-            fbLink: true,
+            fbLink: null,
             youtubeLink: null,
-            website: true,
+            website: null,
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
@@ -860,7 +860,7 @@
                 }
             }
 
-            var alreadyPlayed = true;
+            var alreadyPlayed = false;
             for (var i = 0; i < basicBot.room.historyList.length; i++) {
                 if (basicBot.room.historyList[i][0] === obj.media.cid) {
                     var firstPlayed = basicBot.room.historyList[i][1];
