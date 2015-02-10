@@ -181,7 +181,7 @@
     var basicBot = {
         version: "0.1",
         status: false,
-        name: "Favalbot",
+        name: "basicBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Wastikene/FVLBOT/master/Favalbot.js",
         cmdLink: "http://www.faval.eu/t1753-plug-dj-faval",
@@ -191,7 +191,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "Favalbot",
+            botName: "basicBot",
             language: "english",
             chatLink: "https://rawgit.com/Wastikene/FVLBOT/master/langee.json",
             startupCap: 1, // 1-200
